@@ -11,7 +11,7 @@ namespace ParibusDesign
 		{
 			InitializeComponent();
 
-			MainPage = new Page1();
+			MainPage = new MainPage();
             // Main Page = new name_of_page();
 		}
 
