@@ -11,7 +11,8 @@ namespace ParibusDesign
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new Disgrace();
+            // Main Page = new name_of_page();
 		}
 
 		protected override void OnStart ()
