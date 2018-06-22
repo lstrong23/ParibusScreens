@@ -12,6 +12,7 @@ namespace ParibusDesign
 		public MainPage()
 		{
 			InitializeComponent();
+            
             // this is a comment 
 		}
 	}
