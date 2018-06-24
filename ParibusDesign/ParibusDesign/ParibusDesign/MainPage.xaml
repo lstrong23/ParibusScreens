@@ -4,15 +4,17 @@
              xmlns:local="clr-namespace:ParibusDesign"
              x:Class="ParibusDesign.MainPage">
 
-    <StackLayout>
+	<StackLayout BackgroundColor="#1e90ff">
         <!-- Place new controls here -->
 		<Label Text="Paribus" BackgroundColor="#1e90ff" TextColor="White"
 		   FontSize="Large"
 		   HorizontalTextAlignment="Center"
 		   VerticalTextAlignment="Center"
            HorizontalOptions="Fill"
-           VerticalOptions="Fill" />
-		<Button Text="Donate" BackgroundColor="White" TextColor="#151515" HorizontalOptions="Center" VerticalOptions="Center" />
+           VerticalOptions="CenterAndExpand" />
+		<Button Text="Donate" BackgroundColor="White" TextColor="#151515" FontSize="Medium" HorizontalOptions="FillAndExpand" VerticalOptions="Center" />
+		<Button Text="Receive" BackgroundColor="White" TextColor="#151515" FontSize="Medium" HorizontalOptions="FillAndExpand" VerticalOptions="Center" />
+
 	</StackLayout>
 
 </ContentPage>
