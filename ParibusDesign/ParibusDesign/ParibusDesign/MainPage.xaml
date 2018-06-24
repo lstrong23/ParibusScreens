@@ -6,13 +6,13 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-
 		<Label Text="Paribus" BackgroundColor="#1e90ff" TextColor="White"
 		   FontSize="Large"
 		   HorizontalTextAlignment="Center"
 		   VerticalTextAlignment="Center"
            HorizontalOptions="Fill"
-           VerticalOptions="FillAndExpand" />
-    </StackLayout>
+           VerticalOptions="Fill" />
+		<Button Text="Donate" BackgroundColor="White" TextColor="#151515" HorizontalOptions="Center" VerticalOptions="Center" />
+	</StackLayout>
 
 </ContentPage>
