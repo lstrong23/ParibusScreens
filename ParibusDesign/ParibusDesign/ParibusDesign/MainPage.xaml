@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ParibusDesign"
              x:Class="ParibusDesign.MainPage">
+		
 
 	<StackLayout BackgroundColor="#1e90ff">
         <!-- Place new controls here -->
@@ -12,8 +13,8 @@
 		   VerticalTextAlignment="Center"
            HorizontalOptions="Fill"
            VerticalOptions="CenterAndExpand" />
-		<Button Text="Donate" BackgroundColor="White" TextColor="#151515" FontSize="Medium" HorizontalOptions="FillAndExpand" VerticalOptions="Center" />
-		<Button Text="Receive" BackgroundColor="White" TextColor="#151515" FontSize="Medium" HorizontalOptions="FillAndExpand" VerticalOptions="Center" />
+		<Button Text="Donate" BackgroundColor="White" TextColor="#151515" FontSize="Medium" HorizontalOptions="FillAndExpand" VerticalOptions="Center" Clicked="Button_Clicked" />
+		<Button Text="Receive" BackgroundColor="White" TextColor="#151515" FontSize="Medium" HorizontalOptions="FillAndExpand" VerticalOptions="Center" Clicked="Button_Clicked_1"/>
 
 	</StackLayout>
 
