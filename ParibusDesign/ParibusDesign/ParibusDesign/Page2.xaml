@@ -4,9 +4,12 @@
              x:Class="ParibusDesign.Page2">
     <ContentPage.Content>
 		<StackLayout BackgroundColor="#1e90ff">
-            <Label Text="Donate"
+            <Label Text="Donum" FontSize="Large" TextColor="White"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+			<Button BackgroundColor="#f4e842" Text="$1" TextColor="#1e90ff" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" />
+			<Button BackgroundColor="#f4e842" Text="$5" TextColor="#1e90ff" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" />
+			<Button BackgroundColor="#f4e842" Text="$10" TextColor="#1e90ff" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" />
+		</StackLayout>
     </ContentPage.Content>
 </ContentPage>
