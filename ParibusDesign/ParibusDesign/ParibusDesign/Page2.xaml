@@ -7,6 +7,7 @@
             <Label Text="Donum" FontSize="Large" TextColor="White"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+			<Image Source="https://si.wsj.net/public/resources/images/ON-CF689_dollah_M_20170811152733.jpg" VerticalOptions="Center" HorizontalOptions="Center" />
 			<Button BackgroundColor="#f4e842" Text="$1" TextColor="#1e90ff" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" />
 			<Button BackgroundColor="#f4e842" Text="$5" TextColor="#1e90ff" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" />
 			<Button BackgroundColor="#f4e842" Text="$10" TextColor="#1e90ff" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" />
