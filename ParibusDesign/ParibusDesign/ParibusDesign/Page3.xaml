@@ -4,9 +4,15 @@
              x:Class="ParibusDesign.Page3">
     <ContentPage.Content>
 		<StackLayout BackgroundColor="#1e90ff">
-            <Label Text="Receive"
+			<Label Text="Receive" FontSize="Large" TextColor="White"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+			<Label Text="Full Name" TextColor="White" FontSize="Medium" />
+			<Entry Placeholder="Enter name" HorizontalOptions="Center" />
+			<Label Text="Social Security Number" TextColor="White" FontSize="Medium" />
+			<Entry IsPassword="True" Placeholder="Password" HorizontalOptions="Center" />
+			<Button Text="Log In" BackgroundColor="f4e842" TextColor="#1e90ff" HorizontalOptions="Center" />
+			<Button Text="New user? Sign up" BackgroundColor="f4e842" TextColor="#1e90ff" HorizontalOptions="Center" />
+		</StackLayout>
     </ContentPage.Content>
 </ContentPage>

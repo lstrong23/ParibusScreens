@@ -7,10 +7,11 @@
             <Label Text="Donum" FontSize="Large" TextColor="White"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-			<Image Source="https://r.hswstatic.com/w_907/gif/now-xAn9AfBa-money_creativestudioheinemann_gettyijpg-1210-680.jpg" VerticalOptions="Center" HorizontalOptions="Center" />
-			<Button BackgroundColor="#f4e842" Text="$1" TextColor="#1e90ff" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" />
-			<Button BackgroundColor="#f4e842" Text="$5" TextColor="#1e90ff" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" />
-			<Button BackgroundColor="#f4e842" Text="$10" TextColor="#1e90ff" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" />
+			<Label Text="Full Name" TextColor="White" FontSize="Medium" />
+			<Entry Placeholder="Enter name" HorizontalOptions="Center" />
+			<Label Text="Social Security Number" TextColor="White" FontSize="Medium" />
+			<Entry IsPassword="True" Placeholder="Password" HorizontalOptions="Center" />
+			<Button Text="Log In" BackgroundColor="f4e842" TextColor="#1e90ff" HorizontalOptions="Center" Clicked="Button_Clicked_3" />
 		</StackLayout>
     </ContentPage.Content>
 </ContentPage>

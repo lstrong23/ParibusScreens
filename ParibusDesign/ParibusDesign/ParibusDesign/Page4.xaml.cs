@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace ParibusDesign
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Page2 : ContentPage
+	public partial class Page4 : ContentPage
 	{
-		public Page2 ()
+		public Page4 ()
 		{
 			InitializeComponent ();
 		}
-
-        private void Button_Clicked(object sender, EventArgs e)
-        {
-
-        }
-    }
+	}
 }

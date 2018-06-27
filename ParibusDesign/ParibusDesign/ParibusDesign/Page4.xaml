@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ParibusDesign.Page4">
+    <ContentPage.Content>
+		<StackLayout BackgroundColor="#1e90ff">
+            <Label Text="Choose Amount to Donate" TextColor="White" FontSize="Large"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+			<Button BackgroundColor="#f4e842" Text="$1" TextColor="#1e90ff" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" />
+			<Button BackgroundColor="#f4e842" Text="$5" TextColor="#1e90ff" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" />
+			<Button BackgroundColor="#f4e842" Text="$10" TextColor="#1e90ff" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" />
+		</StackLayout>
+    </ContentPage.Content>
+</ContentPage>
